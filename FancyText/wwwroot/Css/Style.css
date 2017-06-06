@@ -1,0 +1,34 @@
+﻿.formBorderStyle {
+    border: 2px solid blue;
+}
+
+#bootstrap-overrides .inputWidth {
+    width: 45%;
+}
+
+.input_border_green {
+    display: inline-block;
+    margin: 10px;
+    border: 20px solid lightgreen
+}
+
+.input_border_transparent {
+    display: inline-block;
+    margin: 10px;
+    border: 20px solid transparent
+}
+.input_border_yellow {
+    display: inline-block;
+    margin: 10px;
+    border: 20px solid Yellow
+}
+.input_border_blue {
+    display: inline-block;
+    margin: 10px;
+    border: 20px solid blue
+}
+.input_border_pink {
+    display: inline-block;
+    margin: 10px;
+    border: 20px solid pink
+}

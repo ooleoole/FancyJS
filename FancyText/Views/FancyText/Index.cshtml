@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fancy Text</title>
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <link href="lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/Css/Style.css" rel="stylesheet" />
+</head>
+
+<body id="bootstrap-overrides">
+
+    <div class="container-fluid fancy_text" align="center">
+        <div class="card card-block w-50 formBorderStyle text-center" style="margin-top: 25px;">
+            <select class="form-control fancy_select">
+            </select>
+            <form id="form1" class="form-inline">
+                <div class="form-group" style="width: 100%">
+                    <input type="button" class="btn btn-secondary form-control mb-2 mr-sm-2 mb-sm-0 fancy-delete" value="X" />
+                    <div class="input_border_transparent inputWidth">
+                        <input id="input_1" type="text" class="form-control form-control mb-2 mr-sm-2 mb-sm-0 fancy_input" name="text1" style="width: 100%;">
+                    </div>
+                    <select id="drop_1" class="form-control mb-2 mr-sm-2 mb-sm-0 text-center inputWidth fancy_drop" name="color1">
+                        <option value="0">Transparent</option>
+                        <option value="1">Yellow</option>
+                        <option value="2">Pink</option>
+                        <option value="3">Green</option>
+                        <option value="4">Blue</option>
+
+                    </select>
+                </div>
+            </form>
+            <form id="form2" class="form-inline">
+                <div class="form-group" style="width: 100%">
+                    <input type="button" class="btn btn-secondary form-control mb-2 mr-sm-2 mb-sm-0 fancy-delete" value="X" />
+                    <div class="input_border_transparent inputWidth">
+                        <input id="input_2" type="text" class="form-control form-control mb-2 mr-sm-2 mb-sm-0 fancy_input" name="text2" da style="width: 100%;">
+                    </div>
+                    <select id="drop_2" class="form-control mb-2 mr-sm-2 mb-sm-0 text-center inputWidth fancy_drop" name="color2">
+                        <option value="0">Transparent</option>
+                        <option value="1">Yellow</option>
+                        <option value="2">Pink</option>
+                        <option value="3">Green</option>
+                        <option value="4">Blue</option>
+
+                    </select>
+                </div>
+            </form>
+            <form id="form3" class="form-inline">
+                <div class="form-group" style="width: 100%">
+                    <input type="button" class="btn btn-secondary form-control mb-2 mr-sm-2 mb-sm-0 fancy-delete" value="X" />
+                    <div class="input_border_transparent inputWidth">
+                        <input id="input_3" type="text" class="form-control form-control mb-2 mr-sm-2 mb-sm-0 fancy_input" name="text3" style="width: 100%;">
+                    </div>
+                    <select id="drop_3" class="form-control mb-2 mr-sm-2 mb-sm-0 text-center inputWidth fancy_drop" name="color3">
+                        <option value="0">Transparent</option>
+                        <option value="1">Yellow</option>
+                        <option value="2">Pink</option>
+                        <option value="3">Green</option>
+                        <option value="4">Blue</option>
+
+                    </select>
+                </div>
+                <input id="fancy_name" type="text" class="form-control block col-12" placeholder="Name" name="name" style="margin-top: 5px; text-align: center" />
+            </form>
+            <hr />
+            <input type="button" class="btn-block btn-primary form-control add_fancy " value="Add fancy text" />
+        </div>
+    </div>
+    <script src="Script/Script.js"></script>
+</body>
+
+</html>
